@@ -7,14 +7,14 @@ import random
 advice = ['It is certain.','It is decidedly so.','Wihout a doubt.', 'Yes-definitely.','You may rely on it.','As I see it, yes.', 'Most Likely.','Outlook Good.','Yes.','Signs point to yes.','Reply hazy, try again.','Ask again later.','Better not tell you now.','Cannot predict now.','Concentrate and ask again later.','Dont count on it.','My reply is no.','My sources say no.','Outlook not so good.','Very doubtful.']
 # Collection of the standard resposes given by a standard 8-ball
 
-def baller(): #actual function for in-random_choice-out cycle of 8ball after 1st iteration 
+def baller(): #actual function for in -> random_choice -> out cycle of 8ball  
     print('')
     input('Thoguhfully input question and press ENTER : ')
     answer = random.choice(advice)
     print('')
     print('The 8-ball says : ',answer)
     print('')
-def baller2(): # function with baller() along with Yes/No choices, actual function being called in for loop
+def baller2(): # function with baller() along with Yes/No choices, actual function being called in main for loop
     print('')
     choicer= input ('Do you have another question (Y/N) : ')
     if choicer=='Y' or choicer == 'y':
@@ -31,7 +31,7 @@ def baller2(): # function with baller() along with Yes/No choices, actual functi
         input('Press ENTER to Retry')
 def rrpt():
     print('')
-    rpt = input('Ask another question ? (Y/N) : ') # function for invalid response in first Y/N question
+    rpt = input('Ask another question ? (Y/N) : ') # function post invalid response in first Y/N question
 
     if rpt == 'Y' or rpt == 'y':
         print('You may ask a total of 7 more questions')
