@@ -1,6 +1,6 @@
 #Python8Ball by a-p-jo , contact @ apjo@tuta.io
 
-#N.O.T.E : I have used " print('') for the '/n' or newline effect, simply for readability.
+#N.O.T.E : I have used " print('')" for the '/n' or newline effect, for readability.
 
 import random
 
